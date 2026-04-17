@@ -3,7 +3,5 @@ import streamlit as st
 
 st.title('Flix App')
 st.divider()
-
-code = '''def hello():
-    print("Hello, Streamlit!")'''
-st.code(code, language="python")
+st.text_input("Nome do filme")
+st.button('Salvar')
