@@ -40,7 +40,7 @@ class MovieRepository:
     def get_movie_stats(self):
         response = requests.get(
             f'{self.__movies_url}stats/',
-            headers=self.__headers,
+            headers=self.headers,
         )
         if response.status_code == 200:
             return response.json()
