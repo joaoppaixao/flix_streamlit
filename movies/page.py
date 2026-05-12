@@ -11,7 +11,7 @@ def show_movies():
     movie_service = MovieService()
     movies = movie_service.get_movies()
 
-    if movies:      
+    if movies:
         st.write('Lista de Filmes:')
 
         movies_df = pd.json_normalize(movies)

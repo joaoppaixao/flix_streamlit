@@ -2,7 +2,7 @@ import requests
 
 
 class Auth:
-    
+
     def __init__(self):
         self.__base_url = 'https://joaoppaixao.pythonanywhere.com/api/v1/'
         self.__auth_url = f'{self.__base_url}authentication/token/'

@@ -33,5 +33,6 @@ def main():
         if menu_option == 'Avaliações':
             show_reviews()
 
+
 if __name__ == '__main__':
     main()
